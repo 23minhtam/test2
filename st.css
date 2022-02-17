@@ -1,0 +1,146 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url('udpm.jpg') ;
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    position: relative;
+}
+.container>article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container>aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+.container>footer{
+    border-top:5px double orangered ;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius: 3px;
+    width: 100px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: rgb(70, 44, 189);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px ;
+    text-align: left;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: rgb(255, 251, 0);
+    color: rgb(223, 12, 12);
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px gray;
+}
+.vmenu a{
+    background: url('mb.png') no-repeat 2px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    background-size: 30px;
+}
+.vmenu a:hover{
+    background: url('list_style.png') no-repeat 6px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white ;
+    font-weight: bold;
+    background-size: 20px;
+
+}
+.com h1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    text-shadow: 0 0 10px rgb(245, 84, 26);
+    border-bottom: 2px orange ;
+    margin-bottom: 10px;
+}
+.com h4 {
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    color: rgb(36, 104, 146);
+    text-align: center;
+    margin: 0px;
+    font-size: 25px;
+
+}
+.com{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.list-2 > li:hover > .list-3 {
+    display: block;
+    
+}
+
+
